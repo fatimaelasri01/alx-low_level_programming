@@ -20,9 +20,9 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content)
 	{
-		for (len = 0; text_content[len] != '\0'; len++)
+		for (bytes = 0; text_content[bytes] != '\0'; bytes++)
 			;
-		bytes = write(fd, text_content, len);
+		len = write(fd, text_content, bytes);
 	}
 	close(fd);
 
