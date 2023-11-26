@@ -3,6 +3,10 @@
 /**
  * main - Entry point
  *
+ * description: prints all possible different smallest combinations
+ * of three digits in ascending order.
+ * 012, 120, 102, 021, 201, 210 are considered the same combination.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)

@@ -3,6 +3,9 @@
 /**
  * main - Entry point
  *
+ * description: prints all possible different smallest combinations
+ * of two digits in ascending order, the 01 and 10 are considered the same
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
